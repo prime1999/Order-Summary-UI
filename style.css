@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(189, 203, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    margin: 40px auto;
+    display: block;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header{
+    width: 110%;
+    height: 180px;
+    background-image: url("images/illustration-hero.svg");
+    background-size: contain;
+    overflow: hidden;
+}
+
+.body{
+    padding: 30px;
+}
+
+.body-top{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body-top h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+.body-top p{
+    font-size: 15px;
+    line-height: 1.4;
+    color: hsl(224, 23%, 55%);
+}
+
+.body-middle{
+    display: flex;
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+}
+
+.plan img{
+    width: 80%;
+}
+
+.plan-write h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-write p{
+    color: hsl(224, 23%, 55%);
+}
+
+.side a{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    transition: .5s;
+}
+
+.side a:hover{
+    color: hsl(245, 77%, 66%);
+}
+
+.body-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 8px 18px #888888;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: hsl(245, 57%, 73%);
+    cursor: pointer;
+}
+
+.body-bottom a{
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    transition: .5s;
+}
+
+.body-bottom a:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 670px) {
+    .container{
+        width: 60%;
+    }
+    
+    .header{
+        width: 110%;
+        height: 200px;
+        background-image: url("images/illustration-hero.svg");
+        background-size: contain;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 620px) {
+    .container{
+        width: 70%;
+    }
+    
+    .header{
+        width: 110%;
+        height: 220px;
+    }
+}
+
+@media (max-width: 595px) {
+    .container{
+        width: 75%;
+    }
+    
+    .header{
+        width: 110%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 570px) {
+    .container{
+        width: 80%;
+    }
+    
+    .header{
+        width: 110%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 538px) {
+    .container{
+        width: 85%;
+    }
+    
+    .header{
+        width: 110%;
+        height: 220px;
+    }
+}
+@media (max-width: 474px) {
+    .header{
+        width: 110%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 474px) {
+    .header{
+        width: 110%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 395px) {
+    body{
+        background-image: none;
+        background-color: rgb(176, 203, 230)!important;
+        }
+    .header{
+        width: 110%;
+        height: 150px;
+    }
+}
